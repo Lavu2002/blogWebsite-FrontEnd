@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   //...
   devtools: { enabled: true },
   ssr: true,
+  css:['@/assets/css/global.css'],
   build: {
     transpile: ['vuetify'],
   },
@@ -15,7 +16,6 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...https://github.com/Lavu2002/blogWebsite-FrontEnd.git
   ],
   vite: {
     vue: {

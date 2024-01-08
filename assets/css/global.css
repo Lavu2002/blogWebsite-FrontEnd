@@ -1,3 +1,17 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.desktop-view {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .mobile-view {
+        display: none;
+    }
+
+    .desktop-view {
+        display: block;
+    }
 }
